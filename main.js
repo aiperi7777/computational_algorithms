@@ -28,15 +28,15 @@ function sinx(x, k, res) {
 // sinx(0.41714, 1, 0.41714)
 
 
-function getRt() {}
+function getRt() {
+    console.log(getPt(2, [1, 2, 3, 4], 3, 0) / getPt(1, [1, 1, 1, 1], 3, 0))
+}
+getRt()
 
 function getPt(x, a, n, k) {
-
     if (k + 1 < n) {
         return getPt(x, a, n, k + 1) * x + a[k]
     } else return a[n] * x + a[k]
 }
 let res = getPt(2, [1, 2, 3, 4], 3, 0)
 console.log(res)
-
-function getQmt() {}
