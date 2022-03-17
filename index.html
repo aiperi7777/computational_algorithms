@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,10 +7,12 @@
     <link rel="stylesheet" href="style.css">
     <title>ВА 2 лр</title>
 </head>
-
 <body>
-    <h1>Вычисление значений функций</h1>
+<div class="task">
+    <div><h1>Вычисление значений функции</h1></div>
     <div><img src="formula.png"></div>
+</div>
+    <div class="all">
     <div class="all_enter">
         <div>x: <input type="number" id="inp_x"></div>
         <div>a: <input type="number" id="inp_a"></div>
@@ -19,9 +20,9 @@
         <div>Введите кол-во коэффициентов для числителя: <input type="number" id="inp_koefV"></div>
         <div>Введите кол-во коэффициентов для знаменателя: <input type="number" id="inp_koefN"></div>
         <button id="getN">Ввести</button>
-        <div>Вводите значения коэффициентов для числителя:</div>
+        <div>Введите значения коэффициентов для числителя:</div>
         <div id="test"></div>
-        <div>Вводите значения коэффициентов для знаменателя:</div>
+        <div>Введите значения коэффициентов для знаменателя:</div>
         <div id="test1"></div>
         <button id="findRes">Рассчитать</button>
     </div>
@@ -30,8 +31,16 @@
             <img src="exp.png">
             <input type="number" id="res_e">
         </div>
+        <div class="sin_res">
+            <img src="sin.png">
+            <input type="number" id="res_sin">
+        </div>
+        <div class="sindr_res">
+            <img src="sindr.png">
+            <input type="number" id="res_sindr">
+        </div>
+    </div>
     </div>
 </body>
 <script src="main.js"></script>
-
 </html>
