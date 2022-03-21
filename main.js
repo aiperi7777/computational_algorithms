@@ -13,7 +13,6 @@ let res = 1;
 
 function exp(s, k, res) {
     let newRes;
-
     if (Math.abs(res) > 0.00000001) {
         sum += res;
         newRes = (s / k) * res;
@@ -39,8 +38,6 @@ let newRes;
 function getPt(res, x, a, n, k) {
     if (k < n) {
         newRes = res * x + a[k + 1];
-        console.log(newRes);
-        console.log('a= ', a[k], a[k + 1]);
         k++;
         getPt(newRes, x, a, n, k);
     }
