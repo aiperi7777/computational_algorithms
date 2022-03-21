@@ -1,37 +1,48 @@
 input[type="number"] {
-	-moz-appearance: textfield;
-	-webkit-appearance: textfield;
-	appearance: textfield;
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+    appearance: textfield;
 }
- 
+
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
-	display: none;
+    display: none;
 }
-.test-style{
-	width: 60px;
+
+.test-style {
+    width: 60px;
     font-size: 20px;
 }
-input{
-    width: 115px;
+
+input {
+    width: 100px;
     font-size: 20px;
 }
+
+
 /*.exp_res input{
 	width: 300px;
 	display:flex;
 	justify-content: center;
 }*/
-.all{
+
+.all {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     font-size: 20px;
 }
-.task{
+
+.task {
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
 }
-.all_enter input{
+
+.all_enter input {
     margin-bottom: 10px;
+}
+
+.all_result input {
+    width: 130px;
 }
